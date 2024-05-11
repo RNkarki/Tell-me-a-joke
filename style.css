@@ -1,0 +1,67 @@
+body {
+  background-image: url("https://t3.ftcdn.net/jpg/02/86/18/20/360_F_286182066_yY72dajL2Vv9pYZ0LWiDiYZrMEStz0Fo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 12%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 18px;
+  background-color: #ABEBD2;
+  width: 50%;
+}
+
+.title {
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  border-radius: 18px;
+  border: none black;
+  cursor: pointer;
+  background-color: #F0B7B3;
+}
+
+.btn {
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+#jokes-display {
+  color: red;
+  font-family: cursive;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("");
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 18px;
+    background-color: #ABEBD2;
+    width: 50%;
+  }
+
+  .btn {
+    margin-left: 42px;
+    margin-top: 20px;
+  }
+}
